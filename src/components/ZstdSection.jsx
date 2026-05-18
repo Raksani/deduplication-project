@@ -147,7 +147,7 @@ export default function ZstdSection() {
         {/* Real users — fact-checked */}
         <div className={styles.usersCard}>
           <div className={styles.usersTitle}>
-            ✅ Verified real-world users <span className={styles.usersFact}>(fact-checked)</span>
+            ✅ Verified real-world users <span className={styles.usersFact}></span>
           </div>
           <div className={styles.usersGrid}>
             {REAL_USERS.map((u, i) => (

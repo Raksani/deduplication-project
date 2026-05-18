@@ -183,7 +183,7 @@ export default function VarVsFixed() {
             ['Insert 1 byte at start', 'ALL chunks shift → 0% dedup', 'Only affected chunk changes'],
             ['Same data, different offset', 'Different chunk hash ✗', 'Same chunk hash ✓'],
             ['Works best for', 'Fixed-size block devices', 'Real-world variable data'],
-            ['Used by', 'Older/simpler systems', 'Cohesity, Veeam, and modern systems'],
+            ['Used by', 'Older/simpler systems', 'Cohesity, Veritas, and modern systems'],
           ].map(([label, fixed, variable], i) => (
             <div key={i} className={`${styles.tableRow} ${i % 2 === 0 ? styles.tableRowAlt : ''}`}>
               <div className={`${styles.tableCell} ${styles.tableCellLabel}`}>{label}</div>
