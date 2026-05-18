@@ -117,7 +117,7 @@ Each isolated chunk is hashed with SHA-1 to produce a 160-bit fingerprint. This 
 | Boundary method | Content-defined (RABIN) | Fixed byte offset |
 | Byte-shift resilience | ✅ Resistant | ❌ All chunks shift |
 | Typical size | 16–48 KiB | Fixed (e.g. 4 KiB) |
-| Used by | Cohesity, Veeam | Older systems |
+| Used by | Cohesity, Veritas | Older systems |
 
 ---
 
