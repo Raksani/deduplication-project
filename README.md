@@ -38,7 +38,7 @@ An interactive learning resource for teaching **variable-length sliding window d
 ### Install & Run
 
 ```bash
-git clone https://github.com/Raksani/deduplication-edu.git
+git clone https://github.com/YOUR_USERNAME/deduplication-edu.git
 cd deduplication-edu
 npm install
 npm run dev
